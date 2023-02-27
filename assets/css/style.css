@@ -81,3 +81,7 @@ h1, h2 {
     background-color: #a4f9f3;
     position: absolute;
 }
+
+#about-us {
+    text-align: left;
+}
