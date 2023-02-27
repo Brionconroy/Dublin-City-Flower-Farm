@@ -58,10 +58,26 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 #dahlia-field-image {
     height: 600px;
     width: 100%;
     background: url('../css/image/resizedx600.png') no-repeat center center;
+}
+
+/* cover-text to dahlia-field image */
+
+#cover-text {
+    font-size: 150%;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 10px;
+    background-color: #a4f9f3;
+    position: absolute;
 }
