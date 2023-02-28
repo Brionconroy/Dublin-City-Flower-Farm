@@ -17,17 +17,20 @@ h1, h2 {
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #8b8787;
+    color: rgb(51, 77, 52);
 }
 
 #logo {
-    float: left;
     font-size: 275%;
+    text-align: center;
+    text-decoration: none;
 }
 
 #navigation_menu {
     font-size: 115%;
     letter-spacing: 3px;
+    text-align: center;
+    padding-top: -20px;
 }
 
 #navigation_menu, #logo {
@@ -36,9 +39,10 @@ h1, h2 {
 }
 
 #navigation_menu li {
-    float: right;
+    text-align: center;
     list-style-type: none;
     margin-right: 30px;
+    display: inline;
 }
 
 #navigation_menu a {
@@ -66,13 +70,13 @@ h1, h2 {
 #dahlia-field-image {
     height: 600px;
     width: 100%;
-    background: url('../css/image/poeny-bunch.resized.jpg') no-repeat center center;
+    background: url('../css/image/Dahlia-field-resized.jpg') no-repeat center center;
 }
 
 /* cover-text to dahlia-field image */
 
 #cover-text, #cover-text h2 {
-    color: rgb(51, 77, 52) ;
+    color: rgb(51, 77, 52);
 }
 
 #cover-text {
@@ -84,8 +88,8 @@ h1, h2 {
     height: 75px;
     padding-top: 30px;
     padding-left: 30px;
-    background-color: rgba(154, 150, 152, 0.8);
-    bottom: 10px;
+    background-color: rgba(154, 150, 152, 0.4);
+    bottom: 75px;
     right: 275px;
     position: absolute;
 }
@@ -93,5 +97,17 @@ h1, h2 {
 /* about us */
 
 #about-us {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#about-us h2 {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#About-us-text {
     text-align: left;
 }
