@@ -60,6 +60,7 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 #dahlia-field-image {
@@ -70,16 +71,23 @@ h1, h2 {
 
 /* cover-text to dahlia-field image */
 
+#cover-text, #cover-text h2 {
+    color: rgb(51, 77, 52) ;
+}
+
 #cover-text {
     font-size: 150%;
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
-    width: 300px;
-    height: 200px;
-    padding-top: 20px;
-    padding-left: 10px;
-    background-color: #a4f9f3;
+    letter-spacing: 3px;
+    width: 1200px;
+    height: 75px;
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: rgba(154, 150, 152, 0.8);
+    bottom: 10px;
+    right: 275px;
+    position: absolute;
 }
 
 /* about us */
