@@ -112,19 +112,19 @@ h1, h2 {
     text-align: left;
 }
 
-#left-sale {
-    padding-top: 30px;
-    width: 33%;
+/* sale images and text */
+
+#column {
+    width: 33.33%;
     float: left;
+    padding: 5px;
 }
 
-#right-sale {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
+#sales {
+    text-align: center;
+    padding: 30px 30px;
 }
 
-#center-sale {
-    width: 33%;
-    margin: 0 auto;
+#bunch-flowers {
+    display: inline;
 }
