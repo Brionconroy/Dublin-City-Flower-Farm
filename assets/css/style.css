@@ -115,9 +115,10 @@ h1, h2 {
 /* sale images and text */
 
 #column {
-    width: 33.33%;
+    width: 30%;
     float: left;
     padding: 5px;
+    margin-left: 20px;
 }
 
 #sales {
@@ -126,5 +127,4 @@ h1, h2 {
 }
 
 #bunch-flowers {
-    display: inline;
 }
