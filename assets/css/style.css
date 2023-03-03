@@ -160,12 +160,13 @@ footer {
 
 /* Gallery */
 
-#photo-gallery {
+#photo {
     line-height: 0;
     column-count: 4;
     column-gap: 0;
+    padding: 10px;
 }
 
-photo-gallery > img {
+#photo > img {
     width: 100%;
 }
