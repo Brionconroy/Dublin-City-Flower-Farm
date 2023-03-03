@@ -164,9 +164,32 @@ footer {
     line-height: 0;
     column-count: 4;
     column-gap: 0;
-    padding: 10px;
+    padding: 40px;
 }
 
 #photo > img {
     width: 100%;
+}
+
+/* Media Queries */
+
+/* For large to medium screen size from 1200px wide and down*/
+
+@media screen and (max-width: 1200px) {
+    #about-us {
+        width: 65%;
+        margin: auto;
+    }
+}
+
+/* For medium screen size from 950px wide and down*/
+
+@media screen and (max-width: 950px) {
+    #navigation_menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
 }
