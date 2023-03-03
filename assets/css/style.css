@@ -8,7 +8,7 @@
 
 body {
     font-family: Montserrat, sans-serif;
-    background-color:  rgb(150, 176, 151);
+    background-color:  rgb(121, 146, 122);
 }
 
 /* Heading and Logo's */
@@ -86,9 +86,10 @@ h1, h2 {
     letter-spacing: 3px;
     padding-top: 10px;
     padding-left: 30px;
-    background-color: rgba(154, 150, 152, 0.4);
+    background-color: rgba(154, 150, 152, 0.8);
     bottom: 75px;
     position: absolute;
+    float: right;
 }
 
 /* about us */
@@ -155,4 +156,16 @@ footer {
     margin: 1%;
     padding: 5%;
     color: rgb(51, 77, 52);
+}
+
+/* Gallery */
+
+#photo-gallery {
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+photo-gallery > img {
+    width: 100%;
 }
