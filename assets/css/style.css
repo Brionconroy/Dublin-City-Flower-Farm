@@ -9,6 +9,7 @@
 body {
     font-family: Montserrat, sans-serif;
     background-color:  rgb(121, 146, 122);
+    font-size: 18px;
 }
 
 /* Heading and Logo's */
@@ -108,14 +109,17 @@ h1, h2 {
 
 #About-us-text {
     text-align: left;
+    text-align: justify;
 }
 
 /* sale images and text */
 
 #column {
+    height: 100%;
     width: 30%;
     float: left;
     padding: 5px;
+    padding-bottom: 100px;
     margin-left: 20px;
 }
 
@@ -125,6 +129,7 @@ h1, h2 {
     top: 50%;
     left: 50%;
     transform: translate(-50% -50%);
+    overflow: auto;
 }
 
 #sales {
@@ -198,15 +203,24 @@ footer {
 
 #sustainablity_text {
     margin-left: 10%;
-    width: 50%;
+    width: 45%;
+    position: absolute;
+    text-align: justify;
 }
 
 #sustainable_video_outer {
-    text-align: center;
+    float: right;
+    padding-right: 7.5%;
+    padding-top: 5%;
 }
 
 #sustainable_video_inner {
     width: 500px;
-    display: inline-block;
     padding-top: 20px;
+}
+
+footer {
+    background-color: black;
+    position: relative;
+    height: 100px;
 }
