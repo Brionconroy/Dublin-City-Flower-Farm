@@ -193,3 +193,21 @@ footer {
         line-height: 25px;
     }
 }
+
+/* Sustainablity page */
+
+#sustainablity_text {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 75%;
+}
+
+#sustainable_video_outer {
+    text-align: center;
+}
+
+#sustainable_video_inner {
+    width: 500px;
+    display: inline-block;
+    padding-top: 20px;
+}
