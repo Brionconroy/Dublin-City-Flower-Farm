@@ -33,6 +33,7 @@ h1, h2, h3 {
     font-size: 115%;
     letter-spacing: 3px;
     text-align: center;
+    margin-top: 20px;
 }
 
 #navigation_menu, #logo {
@@ -201,8 +202,6 @@ footer {
 
 @media screen and (max-width: 950px) {
     #navigation_menu {
-        clear: left;
-        float: left;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
@@ -213,6 +212,8 @@ footer {
     }
 }
 
+/* For medium screen size from 800px wide and down*/
+
 @media screen and (max-width: 800px) {
     #photo {
         column-count: 2;
@@ -222,21 +223,20 @@ footer {
 /* Sustainablity page */
 
 #sustainablity_text {
-    margin-left: 10%;
-    width: 45%;
-    position: relative;
+    width: 60%;
     text-align: justify;
+    padding: 20px;
+    margin: 0 auto;
 }
 
 #sustainable_video_outer {
-    float: right;
-    padding-right: 7.5%;
-    padding-top: 5%;
+    padding: 20px;
+    margin: 20px;
 }
 
 #sustainable_video_inner {
-    width: 500px;
-    padding-top: 20px;
+    width: 550px;
+    height: 550px;
 }
 
 /* footer stick to the bottem of page*/
