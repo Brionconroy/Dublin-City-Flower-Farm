@@ -224,9 +224,12 @@ footer {
 
 #sustainablity_text {
     width: 60%;
-    text-align: justify;
     padding: 20px;
     margin: 0 auto;
+}
+
+#sustainablity_text > p {
+    text-align: justify;
 }
 
 #sustainable_video_outer {
@@ -253,15 +256,25 @@ body {
 
   /* sign-up form */
 
+  #form-section {
+    padding: 50px;
+  }
+
   .signup-form {
     margin-left: 7.5%;
     color: rgb(51, 77, 52);
     background-color: rgba(173, 161, 167, 0.5);
-    max-width: 400px;
-    position: relative
+    max-width: 350px;
     left: 10%;
     
     padding: 30px;
+}
+
+#form-text {
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    float: right;
 }
 
 .signup-form > h2 {
