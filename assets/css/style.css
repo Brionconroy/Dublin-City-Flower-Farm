@@ -204,7 +204,7 @@ footer {
 #sustainablity_text {
     margin-left: 10%;
     width: 45%;
-    position: absolute;
+    position: relative;
     text-align: justify;
 }
 
@@ -219,8 +219,63 @@ footer {
     padding-top: 20px;
 }
 
-footer {
-    background-color: black;
-    position: relative;
-    height: 100px;
+/* footer stick to the bottem of page*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+  
+  footer {
+    flex: 1;
+  }
+
+  /* sign-up form */
+
+  .signup-form {
+    margin-left: 7.5%;
+    color: rgb(51, 77, 52);
+    background-color: rgba(173, 161, 167, 0.5);
+    max-width: 400px;
+    position: relative
+    left: 10%;
+    
+    padding: 30px;
+}
+
+.signup-form > h2 {
+color: rgb(51, 77, 52);
+margin-bottom: 20px;
+}
+
+.text-input{
+background: transparent;
+background-color: #fafafa;
+color: rgb(51, 77, 52);
+width: 100%;
+height: 25px;
+margin: 5px 0 20px 0;
+border: 1px solid rgb(51, 77, 52);
+border-radius: 2px;
+} 
+
+.text-input:hover {
+border-color: rgb(176, 240, 133);
+}
+
+.join-button {
+margin-top: 20px;
+border-radius: 2px;
+padding: 15px 32px 15px 32px;
+text-align: center;
+font-size: 110%;
+background-color:rgb(51, 77, 52);
+color:rgb(121, 146, 122);
+display: block;
+}
+
+.join-button:hover {
+background-color: rgb(121, 146, 122);
+color:rgb(51, 77, 52);
 }
