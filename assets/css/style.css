@@ -178,7 +178,7 @@ footer {
     padding: 40px;
 }
 
-#photo, div {
+#photo> div {
     text-align: center;
     color: #000;
 }
@@ -234,7 +234,7 @@ footer {
 
 #sustainable_video_outer {
     padding: 20px;
-    margin: 20px;
+    margin: 0 auto;
 }
 
 #sustainable_video_inner {
@@ -261,20 +261,27 @@ body {
   }
 
   .signup-form {
-    margin-left: 7.5%;
     color: rgb(51, 77, 52);
     background-color: rgba(173, 161, 167, 0.5);
     max-width: 350px;
-    left: 10%;
-    
     padding: 30px;
+    float: right;
 }
 
 #form-text {
-    width: 400px;
-    margin: 0 auto;
+    width: 350px;
     padding: 10px;
-    float: right;
+    float: left;
+    margin: 10px;
+}
+
+#form-text> h2 {
+    text-align: center;
+}
+
+#contact-details {
+    text-align: center;
+    margin-top: 25px;
 }
 
 .signup-form > h2 {
