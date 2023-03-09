@@ -34,6 +34,7 @@ h1, h2, h3 {
     letter-spacing: 3px;
     text-align: center;
     margin-top: 20px;
+    color: rgb(51, 77, 52);
 }
 
 #navigation_menu, #logo {
@@ -178,9 +179,12 @@ footer {
     padding: 40px;
 }
 
-#photo> div {
+#gallery-header {
+    padding: 10px;
+    margin: 10px;
     text-align: center;
-    color: #000;
+    width: 100%;
+
 }
 
 #photo > img {
@@ -257,9 +261,6 @@ body {
   /* sign-up form */
 
   #form-section {
-    padding: 50px;
-    display: inline-block;
-    vertical-align: middle;
     margin: 0 auto;
   }
 
@@ -283,7 +284,12 @@ body {
     text-align: center;
 }
 
-#contact-details {
+#contact-details-1 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#contact-details-2 {
     text-align: center;
     margin-top: 25px;
 }
