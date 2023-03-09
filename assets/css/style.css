@@ -126,15 +126,6 @@ h1, h2, h3 {
     margin: 0 auto;
 }
 
-#column image {
-    display: inline-block;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% -50%);
-    overflow: auto;
-    text-align: center;
-}
 #column h3 {
     text-align: center;
     padding-top: 20px;
