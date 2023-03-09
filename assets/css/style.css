@@ -258,21 +258,25 @@ body {
 
   #form-section {
     padding: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
   }
 
   .signup-form {
     color: rgb(51, 77, 52);
     background-color: rgba(173, 161, 167, 0.5);
-    max-width: 350px;
+    width: 300px;
+    height: 300px;
     padding: 30px;
-    float: right;
+    margin: 0 auto;
+    
 }
 
 #form-text {
     width: 350px;
-    padding: 10px;
-    float: left;
-    margin: 10px;
+    height: auto;
+    padding: 30px;
 }
 
 #form-text> h2 {
