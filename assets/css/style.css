@@ -136,6 +136,7 @@ h1, h2, h3 {
 #bunch-flowers {
     margin: 0 auto;
     display: flex;
+    flex-direction: row;
 }
 
 /* footer */
@@ -184,6 +185,7 @@ footer {
 
 .parent {
     display: flex;
+    flex-direction: row;
 }
 
 #sustainablity_text {
@@ -223,6 +225,12 @@ body {
   }
 
   /* sign-up form */
+
+  .form-parent {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+  }
 
   #form-section {
     margin: 0 auto;
@@ -328,5 +336,18 @@ color:rgb(51, 77, 52);
 
     #about-us {
         width: 95%;
+    }
+
+    .parent {
+        flex-direction: column;
+    }
+
+    .form-parent {
+        flex-direction: column;
+    }
+
+    #bunch-flowers {
+        display: flex;
+        flex-direction: column;
     }
 }
