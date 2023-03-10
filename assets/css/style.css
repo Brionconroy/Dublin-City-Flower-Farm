@@ -135,6 +135,7 @@ h1, h2, h3 {
 
 #bunch-flowers {
     margin: 0 auto;
+    display: flex;
 }
 
 /* footer */
