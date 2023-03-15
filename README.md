@@ -14,7 +14,7 @@ The User Experience Design was constructed using the five planes.
 + Stratagy: Is this content relvent to the user and is it culturally appropriate.
 + Scope: Are we accomplishing our goals of broadcasting the companys ethos and products.
 + Structure: How many pages should we have in our web page and why?
-+ skeleton: Does the structure of the wireframe meet the costumers/Users needs. is the web page responsive. ![]
++ skeleton: Does the structure of the wireframe meet the costumers/Users needs. is the web page responsive. ![](assets/css/image/readme.pic/wireframe/landing-page.png) ![](assets/css/image/readme.pic/wireframe/gallery.png) ![](assets/css/image/readme.pic/wireframe/sustainability.png) ![](assets/css/image/readme.pic/wireframe/contact-us.png)
 + Surface: Does the site visully look good does it have enough images and colours.
 
 # Features 

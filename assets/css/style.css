@@ -8,7 +8,7 @@
 
 body {
     font-family: Montserrat, sans-serif;
-    background-color:  rgb(121, 146, 122);
+    background-color:  rgb(202, 229, 202);
     font-size: 18px;
 }
 
@@ -73,7 +73,7 @@ h1, h2, h3 {
 #dahlia-field-image {
     height: 600px;
     width: 100%;
-    background: url('../css/image/Dahlia-field-resized.jpg') no-repeat center center;
+    background: url('../css/image/landing-page/dalhia-field.jpeg') no-repeat center center;
 }
 
 /* cover-text to dahlia-field image */
@@ -188,8 +188,7 @@ footer {
 }
 
 #sustainablity_text {
-    width: 75%;
-    padding: 20px;
+    padding: 50px;
     margin: 0 auto;
 }
 
