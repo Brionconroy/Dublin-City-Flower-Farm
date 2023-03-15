@@ -239,7 +239,7 @@ body {
   .signup-form {
     color: rgb(51, 77, 52);
     background-color: rgba(173, 161, 167, 0.5);
-    width: 300px;
+    width: 450px;
     height: 300px;
     padding: 30px;
     margin: 0 auto;
@@ -247,7 +247,7 @@ body {
 }
 
 #form-text {
-    width: 350px;
+    width: 450px;
     height: auto;
     padding: 30px;
 }
