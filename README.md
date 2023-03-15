@@ -4,6 +4,19 @@ Dublin city flower farm is a site dedicated to helping the user to get a feel fo
 
 ![](../G_flower_shop/assets/css/image/readme.pic/responsive.img.png)
 
+# UX
+
+As a new visitor to the site I would like information on what the company is about. what are the companys products and why should we choies them. As a returning custamer i want to be easly able to navigate the site to easly fine what I'm looking for and possable give feedback to the host.
+
+# Design (UXD)
+
+The User Experience Design was constructed using the five planes. 
++ Stratagy: Is this content relvent to the user and is it culturally appropriate.
++ Scope: Are we accomplishing our goals of broadcasting the companys ethos and products.
++ Structure: How many pages should we have in our web page and why?
++ skeleton: Does the structure of the wireframe meet the costumers/Users needs. is the web page responsive. ![]
++ Surface: Does the site visully look good does it have enough images and colours.
+
 # Features 
 
 ## Logo

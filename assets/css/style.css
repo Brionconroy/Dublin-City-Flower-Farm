@@ -222,6 +222,7 @@ body {
   
   footer {
     flex: 1;
+    padding: 45px;
   }
 
   /* sign-up form */
