@@ -10,6 +10,10 @@ body {
     font-family: Montserrat, sans-serif;
     background-color:  rgb(202, 229, 202);
     font-size: 18px;
+
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Heading and Logo's */
@@ -142,6 +146,8 @@ h1, h2, h3 {
 
 footer {
     height: 150px;
+    flex: 1;
+    padding: 45px;
 }
 
 #social-networks {
@@ -210,19 +216,6 @@ footer {
     width: 400px;
     height: 400px;
 }
-
-/* footer stick to the bottem of page*/
-
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-  
-  footer {
-    flex: 1;
-    padding: 45px;
-  }
 
   /* sign-up form */
 
@@ -316,11 +309,6 @@ color:rgb(51, 77, 52);
 /* For medium screen size from 950px wide and down*/
 
 @media screen and (max-width: 950px) {
-    #navigation_menu {
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
 
     #photo {
         column-count: 3;
@@ -350,32 +338,17 @@ color:rgb(51, 77, 52);
         display: flex;
         flex-direction: column;
     }
-
-    #sustainable_video_outer {
-        padding: 20px;
-        margin: 0 auto;
-    }
 }
 
-/* For medium screen size from 800px wide and down*/
+/* For medium screen size from 420px wide and down*/
 
 @media screen and (max-width: 420px) {
     body {
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
         flex-wrap: wrap;
     }
 
-    #dahlia-field-outer {
-        height: 600px;
-        overflow: hidden;
-        position: relative;
-    }
-
-    #about-us {
-        padding-top: 10px;
-        margin: 0 auto;
+    .gallery {
+        min-height: 1750px;
     }
 
 }
