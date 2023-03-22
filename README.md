@@ -85,6 +85,8 @@ When I first deployed my project to Github the images where not displaying.
 + I had to go back and change my file path diriectory and it worked!
 At the moblie level, the website broke. All the content shrunk to half the size of the screen.
 + Removing the width at the mobile level fixed this problem.
+Footer would not sick to the bottem on screens smaller then 400px. It kept moving up into the gallery photos.
++ The fix for this was the make the gallery content larger.
 
 ## Validation Testing
 
