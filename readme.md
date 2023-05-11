@@ -109,7 +109,7 @@ The site was deployed using Github pages:
 + Click on Branchs makes sure it set to main and click save.
 + Refresh the page and you will see a URL link to your page.
 
-https://brionconroy.github.io/G_flower_shop/
+https://brionconroy.github.io/Dublin-City-Flower-Farm/
 
 ## Credits
 
